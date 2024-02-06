@@ -17,7 +17,7 @@ const config = {
         sm: '2rem'
       },
       screens: {
-        DEFAULT: '1120px'
+        DEFAULT: '1280px'
       }
     },
     colors: {
@@ -46,7 +46,9 @@ const config = {
         800: '#1E293B',
         900: '#0F172A',
         950: '#020617'
-      }
+      },
+      green: '#25D366',
+      white: '#FFF'
     },
     fontFamily: {
       sans: ['var(--font-sans)', 'sans-serif'],
@@ -69,6 +71,10 @@ const config = {
       animation: {
         'accordion-down': 'accordion-down 0.2s ease-out',
         'accordion-up': 'accordion-up 0.2s ease-out'
+      },
+      backgroundImage: {
+        hero: "url('/hero.jpg')",
+        cta: "url('/pictureCTA.jpg')"
       }
     }
   },
