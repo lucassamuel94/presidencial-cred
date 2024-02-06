@@ -50,7 +50,7 @@ export default function ComoFunciona() {
             <li
               key={id}
               className='flex flex-col items-center gap-6 rounded-md bg-gray-700 p-8 text-center duration-300 hover:scale-105 hover:transition-all'>
-              <figure className='bg-brand-50 text-brand-700 rounded-full p-3'>
+              <figure className='rounded-full bg-brand-50 p-3 text-brand-700'>
                 {icon}
               </figure>
               <h4 className='text-50 text-xl font-bold'>{name}</h4>
