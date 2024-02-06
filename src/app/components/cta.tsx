@@ -8,7 +8,7 @@ export default function CTA() {
   return (
     <section className='bg-cta bg-cover bg-center px-2 py-20 lg:px-0'>
       <div className='container flex flex-col items-center rounded-2xl bg-white/90 py-16 lg:py-20'>
-        <Image src={pictureMapa} alt='' quality={100} />
+        <Image src={pictureMapa} alt='' quality={100} loading='lazy' />
 
         <div className='mx-auto max-w-[590px] text-center'>
           <h3 className='text-3xl font-bold text-gray-900 lg:text-4xl'>
