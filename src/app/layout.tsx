@@ -10,7 +10,7 @@ type RootLayoutProps = {
 }
 
 export const metadata: Metadata = {
-  title: 'Presidencial Prev',
+  title: 'Presidencial Cred',
   description: 'Há 17 anos levando soluções para todo o Brasil'
 }
 
