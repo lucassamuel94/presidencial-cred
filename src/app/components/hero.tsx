@@ -16,7 +16,6 @@ export default function Hero() {
             src={pictureLogo}
             alt='Logo da Presidencial Cred'
             className='hidden lg:block'
-            priority
           />
 
           <h2 className='mt-16 text-3xl font-bold text-gray-900 lg:text-5xl'>
