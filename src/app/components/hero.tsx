@@ -19,7 +19,7 @@ export default function Hero() {
           />
 
           <h2 className='mt-16 text-3xl font-bold text-gray-900 lg:text-5xl'>
-            Descubra as Melhores Opções de Crédito para Você!
+            Precisando de Dinheiro? Vamos te ajudar!
           </h2>
           <p className='mt-6 text-gray-700 lg:text-lg'>
             Bem-vindo à Presidencial Cred, sua parceira confiável em soluções de
