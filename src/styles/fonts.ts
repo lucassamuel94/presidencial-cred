@@ -1,4 +1,4 @@
-import { Poppins as FontSans, DM_Sans as FontHeading } from 'next/font/google'
+import { Inter as FontHeading, Inter as FontSans } from 'next/font/google'
 export const fontSans = FontSans({
   subsets: ['latin'],
   display: 'swap',
