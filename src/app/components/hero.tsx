@@ -12,11 +12,14 @@ export default function Hero() {
     <div className='bg-hero bg-cover bg-left lg:bg-center'>
       <div className='container flex flex-col-reverse items-center py-10 text-center md:pb-0 lg:h-[640px] lg:flex-row lg:justify-between lg:text-left'>
         <div className='mx-auto max-w-[488px]'>
-          <Image
-            src={pictureLogo}
-            alt='Logo da Presidencial Cred'
-            className='hidden lg:block'
-          />
+          <div>
+            <h1 className='sr-only'>Presidencial Cred</h1>
+            <Image
+              src={pictureLogo}
+              alt='Logo da Presidencial Cred'
+              className='hidden lg:block'
+            />
+          </div>
 
           <h2 className='mt-16 text-3xl font-bold text-gray-900 lg:text-5xl'>
             Está precisando de dinheiro? Vamos te ajudar!
