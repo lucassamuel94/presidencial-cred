@@ -16,6 +16,7 @@ export default function Hero() {
             src={pictureLogo}
             alt='Logo da Presidencial Cred'
             className='hidden lg:block'
+            priority
           />
 
           <h2 className='mt-16 text-3xl font-bold text-gray-900 lg:text-5xl'>
@@ -44,6 +45,7 @@ export default function Hero() {
             alt='Especialista Isabelle sorrindo com notas de 100 reais na mão'
             quality={100}
             className='pl-6 lg:pl-0'
+            priority
           />
         </figure>
       </div>
