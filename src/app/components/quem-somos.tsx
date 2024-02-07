@@ -1,4 +1,5 @@
 import pictureProfile02 from '@/assets/person02.png'
+import { InstagramLogo } from '@phosphor-icons/react/dist/ssr'
 import Image from 'next/image'
 
 export default function QuemSomos() {
@@ -13,7 +14,7 @@ export default function QuemSomos() {
           <h3 className='text-center text-3xl font-bold text-gray-50 lg:text-left lg:text-4xl'>
             Quem Somos
           </h3>
-          <p className='font-medium lg:text-lg'>
+          <p className='text-center font-medium lg:text-left lg:text-lg'>
             Há 17 anos, a Presidencial Cred tem sido a solução confiável para
             problemas financeiros.
             <br />
@@ -27,6 +28,26 @@ export default function QuemSomos() {
             o Brasil, proporcionando agilidade e segurança em todas as
             transações.
           </p>
+
+          <div className='flex flex-col gap-6 sm:flex-row sm:items-center sm:justify-center sm:gap-8 lg:justify-start'>
+            <a
+              href='https://www.instagram.com/grupopresidencial'
+              target='_blank'
+              rel='noopener noreferrer'
+              className='flex items-center justify-center gap-2 rounded-md bg-gradient-to-r from-[#8B5CF6] to-[#C026D3] px-6 py-4 font-semibold '>
+              <InstagramLogo className='size-6' weight='duotone' />
+              <span>@grupopresidencial</span>
+            </a>
+
+            <a
+              href='https://www.instagram.com/isapresidencial'
+              target='_blank'
+              rel='noopener noreferrer'
+              className='flex items-center justify-center gap-2 rounded-md bg-gradient-to-r from-[#8B5CF6] to-[#C026D3] px-6 py-4 font-semibold '>
+              <InstagramLogo className='size-6' weight='duotone' />
+              <span>@isapresidencial</span>
+            </a>
+          </div>
         </div>
       </div>
     </section>
