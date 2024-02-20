@@ -50,6 +50,25 @@ export default function RootLayout({ children }: RootLayoutProps) {
         />
       </noscript>
 
+      {/* <!-- Google tag (gtag.js) --> */}
+      <script
+        async
+        src='https://www.googletagmanager.com/gtag/js?id=G-Q598SR9XL0'></script>
+
+      <Script
+        id='analytics'
+        strategy='afterInteractive'
+        dangerouslySetInnerHTML={{
+          __html: `
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+        
+          gtag('config', 'G-Q598SR9XL0');
+          `
+        }}
+      />
+
       <body
         className={cn(
           fontSans.variable,
