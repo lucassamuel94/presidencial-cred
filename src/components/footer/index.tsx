@@ -9,6 +9,7 @@ export default function Footer() {
         </Link>
 
         <span className='text-sm'>Todos os direitos reservados</span>
+        <span className='text-sm'>CNPJ - 13.510.256/0001-90</span>
       </div>
     </footer>
   )
