@@ -1,6 +1,7 @@
 'use client'
 
 import aposentadoriaINSS from '@/assets/aposentadoINSS.jpg'
+import bolsaFamilia from '@/assets/bolsaFamilia.jpeg'
 import contaEnergia from '@/assets/contaEnergia.jpg'
 import loas from '@/assets/loas.jpg'
 import saqueFGTS from '@/assets/saqueFGTS.jpg'
@@ -58,6 +59,16 @@ export default function NossosProdutos() {
         'Atendemos o estado do RN - CE - BA - PE - RS - SP',
         'Em até 24hs na sua conta',
         'Desconto na conta de luz'
+      ]
+    },
+    {
+      id: 'bcfc54e2-7ef0-4637-8ed1-cb19d9e18eab',
+      name: 'Programa Bolsa Família',
+      image: bolsaFamilia,
+      features: [
+        'Crédito Pessoal Crefisa',
+        '⁠⁠Até R$ 700,00',
+        '⁠⁠Obrigatório Caixa Tem'
       ]
     }
   ]
